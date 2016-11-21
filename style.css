@@ -1,16 +1,7 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: INTENSY html template
-    Template URI: http://bootexperts.com
-    Description: This is html5 template
-    Author: BootExperts
-    Author URI: http://bootexperts.com
-    Version: 1.0
-
------------------------------------------------------------------------------------
-    
     [Table of contents]
-	
+
     1. Theme default CSS
     2. Header
     3. Slider 
@@ -92,7 +83,7 @@ h4,
 h5,
 h6 {
     color: #444444;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
     font-weight: 300;
     margin: 0 0 20px;
     text-transform: none;
@@ -113,7 +104,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 body .readon-title {
-    color: #2bcdc1;
+    color: #338da8;
 }
 body .readon.large {
   display: inline-block;
@@ -131,7 +122,7 @@ body .readon.white {
 }
 body .readon {
     background: transparent none repeat scroll 0 0;
-    border: 2px solid #2bcdc1;
+    border: 2px solid #338da8;
     display: inline-block;
     padding: 10px 20px;
     position: relative;
@@ -140,11 +131,11 @@ body .readon {
     transition: all 0.3s ease-in-out 0s;
 }
 body .readon.white:hover {
-    border-color: #28bfb4;
+    border-color: #338da8;
     color: #fff;
 }
 body .readon:hover {
-    background-color: #28bfb4;
+    background-color: #338da8;
     color: #fff;
 }
 .mobile-menu-area {
@@ -156,7 +147,7 @@ body .readon:hover {
 
 .header-area {
     background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
-    border-top: 3px solid #2bcdc1;
+    border-top: 3px solid #338da8;
 }
 .header-area {
     left: 0;
@@ -169,13 +160,15 @@ body .readon:hover {
 }
 .logo {
     height: 40px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .logo a {
     display: inline-block;
     margin-top: 9px;
 }
-.logo a img {}
+.logo a img {
+
+}
 /*-------------------------------
 2.1 mainmenu 
 --------------------------------*/
@@ -203,7 +196,7 @@ body .readon:hover {
     position: relative
 }
 .mainmenu ul#nav> li> a:before {
-    border-color: #2bcdc1 transparent transparent;
+    border-color: #338da8 transparent transparent;
     border-image: none;
     border-style: solid;
     border-width: 5px;
@@ -299,7 +292,7 @@ body .readon:hover {
 .mainmenu ul#nav li .mega-menu span > a {
     color: #ddd;
     display: block;
-    font-size: 12.9px;
+    font-size: 13px;
     font-weight: 400;
     margin: 0 35px;
     padding: 7px 0;
@@ -316,7 +309,7 @@ body .readon:hover {
 .home-2 .mainmenu ul#nav li .mega-menu span > a,.home-2 .mainmenu ul#nav li ul.sub-menu li a {
   color: #666;
 }
-.home-2 .mainmenu ul#nav li .mega-menu span>a:hover,{
+.home-2 .mainmenu ul#nav li .mega-menu span>a:hover {
     color: #444;
 }
 .mainmenu ul#nav li .mega-menu span>a:hover {
@@ -348,7 +341,7 @@ body .readon:hover {
 }
 .mainmenu ul#nav li .mega-menu-shop > span > a {
     border-bottom: 0 none;
-    color: #2bcdc1;
+    color: #338da8;
     padding: 1px 0;
     text-transform: uppercase;
 }
@@ -410,7 +403,7 @@ a.new-pro,
 }
 .stick .logo {
     height: 20px;
-    padding: 18px 0;
+    padding: 9px 0;
 }
 .stick .logo a {
     margin-top: 0px
@@ -466,34 +459,34 @@ span.search-button i {
 
 .intensy_slider1_slide_t1 {
     color: #fff;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", serif;
     font-size: 45px;
     font-weight: lighter;
     line-height: 36px;
 }
 .intensy_slider1_slide_h1 h1 {
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", serif;
     font-size: 85px;
     font-weight: 900;
     line-height: 36px;
 }
 .intensy_slider1_slide1_p p {
     color: #fff;
-    font-family: "Roboto Slab";
+    font-family: "Roboto";
     font-size: 20px;
     font-weight: 300;
     line-height: 36px;
 }
 .intensy_slider1_slide3_h1 h1 {
     color: #fff;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", serif;
     font-size: 70px;
     font-weight: 900;
     line-height: 36px;
 }
 .intensy_slider1white_slide3_h1 h1 {
     color: #fff;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", serif;
     font-size: 85px;
     font-weight: 900;
     line-height: 36px;
@@ -511,13 +504,13 @@ span.search-button i {
 --------------------------------*/
 
 .welcome-area {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     text-align: center;
-    padding: 35px 0;
+    //padding: 35px 0;
 }
 .welcome-text {
-    margin: 80px 0 25px !important;
-    padding: 100px 0 135px;
+    //margin: 80px 0 25px !important;
+    padding: 100px 0;
     position: relative;
 }
 .welcome-text:before,
@@ -534,7 +527,7 @@ span.search-button i {
     top: 45px;
 }
 .welcome-text:after {
-    bottom: 100px;
+    //bottom: 100px;
 }
 .welcome-text h2 {
     color: #fff;
@@ -552,7 +545,7 @@ span.search-button i {
 --------------------------------*/
 
 .features-area-1 {
-    background: rgba(0, 0, 0, 0) url("img/features/bg-1.jpg") no-repeat fixed center center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/features/bg-1.jpg") no-repeat fixed center center / cover;
     padding: 160px 0 162px;
 }
 .single-features-1 {
@@ -569,7 +562,7 @@ span.search-button i {
     color: #F46731
 }
 .features-icon i.fa-joomla {
-    color: #2BCDC1
+    color: #338da8
 }
 .features-info-text h3 {
     color: #fff;
@@ -585,7 +578,7 @@ span.search-button i {
 --------------------------------*/
 
 .creative-intensy-area {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     padding-top: 35px;
     overflow: hidden;
 }
@@ -715,8 +708,8 @@ span.search-button i {
 }
 .awesome-portfolio-menu ul li.active,
 .awesome-portfolio-menu ul li:hover {
-    border-color: #2bcdc1;
-    color: #2bcdc1;
+    border-color: #338da8;
+    color: #338da8;
 }
 .awesome-portfolio-content .mix {
     display: none;
@@ -789,7 +782,7 @@ span.search-button i {
     opacity: 0.5;
 }
 .member-icons {
-    background-color: #2bcdc0;
+    background-color: #338da8;
     border-radius: 0 10px 0 0;
     padding: 15px 0 0;
     position: absolute;
@@ -819,7 +812,7 @@ span.search-button i {
     top: 100%;
 }
 .member-icons svg path {
-    fill: #2bcdc0;
+    fill: #338da8;
 }
 /*------------------------------
 9. Our-skill-area
@@ -879,7 +872,7 @@ span.search-button i {
     font-size: 12px;
 }
 .test-info a {
-    color: #2bcdc1;
+    color: #338da8;
     text-decoration: none;
 }
 span.test-name {
@@ -909,7 +902,7 @@ span.test-title {
 }
 .testimonial-curosel.owl-theme .owl-dots .owl-dot.active span,
 .testimonial-curosel.owl-theme .owl-dots .owl-dot:hover span {
-    background: #2BCDC1;
+    background: #338da8;
 }
 /*------------------------------
 11. Latest-blog-area
@@ -950,7 +943,7 @@ a.blog-more {
     transition: all 0.2s ease-in-out 0s;
     width: 50px;
     z-index: 111;
-    background-color: #2bcdc1;
+    background-color: #338da8;
 }
 .even a i {} .even a img {} .latest-blog-info {
     bottom: 20px;
@@ -1021,7 +1014,7 @@ a.blog-more {
     z-index: 5;
 }
 .latest-blog-desc {
-    background-color: #2bcdc1;
+    background-color: #338da8;
     box-sizing: border-box;
     display: inline-block;
     height: 340px;
@@ -1056,7 +1049,7 @@ h3.latest-blog-title {
 --------------------------------*/
 
 .brand-area {
-    background-color: #2bcdc1;
+    background-color: #338da8;
     color: #ffffff;
     padding: 160px 0
 }
@@ -1138,16 +1131,16 @@ footer {
     padding-top: 25px;
 }
 .footer-contact ul li span a {
-    color: #28bfb4;
+    color: #338da8;
 }
 .footer-contact ul li span a:hover {
     text-decoration: underline;
 }
 .footer-contact ul li span a i {
     background: transparent none repeat scroll 0 0;
-    border: 2px solid #28bfb4;
+    border: 2px solid #338da8;
     border-radius: 0;
-    color: #28bfb4;
+    color: #338da8;
     font-size: 14px;
     height: 30px;
     line-height: 14px;
@@ -1168,7 +1161,7 @@ footer {
 --------------------------------*/
 
 .footer-bottom-area {
-    border-top: 2px solid #2bcdc1;
+    border-top: 2px solid #338da8;
     padding: 35px 0;
 }
 .copyright {} .copyright p {
@@ -1176,7 +1169,7 @@ footer {
     margin: 0;
 }
 .copyright p a {
-    color: #28bfb4;
+    color: #338da8;
 }
 .copyright p a:hover {
     text-decoration: underline
@@ -1209,7 +1202,7 @@ footer {
     font-size: 13px;
 }
 .footer-menu ul li a:hover {
-    color: #28bfb4
+    color: #338da8
 }
 #scrollUp {
     background-color: rgba(130, 130, 130, 0.6);
@@ -1290,7 +1283,7 @@ footer {
 
 .intensy_slider2_slide1_h1 h1 {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 42px;
     font-weight: 700;
     line-height: 36px;
@@ -1298,7 +1291,7 @@ footer {
 }
 .intensy_slider2_slide1_t2white h1 {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 65px;
     font-weight: 700;
     letter-spacing: 16px;
@@ -1307,14 +1300,14 @@ footer {
 }
 .intensy_slider2_slide2_t1black h1 {
     color: #635b5b;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", serif;
     font-size: 55px;
     font-weight: 700;
     line-height: 36px;
 }
 .intensy_slider2_slide2_t2white h1 {
     color: #fff;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", serif;
     font-size: 36px;
     font-weight: 300;
     line-height: 36px;
@@ -1933,14 +1926,14 @@ h2.heading-2::before {
 
 .intensy_slider3_slide1_t1white h1 {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 60px;
     font-weight: 700;
     line-height: 60px;
 }
 .intensy_slider3_slide1_t3white {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 23px;
     font-weight: 300;
     line-height: 36px;
@@ -1948,7 +1941,7 @@ h2.heading-2::before {
 }
 .intensy_slider3_slide2_title1white h1 {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 40px;
     font-weight: 500;
     line-height: 36px;
@@ -1957,7 +1950,7 @@ h2.heading-2::before {
 }
 .intensy_slider3_slide2_title2white h1 {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 55px;
     font-weight: 700;
     line-height: 36px;
@@ -1966,7 +1959,7 @@ h2.heading-2::before {
 }
 .intensy_slider3_slide3_t3_white p {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 16px;
     font-weight: 300;
     line-height: 36px;
@@ -1974,7 +1967,7 @@ h2.heading-2::before {
     transform: rotate(-15deg);
 }
 .intensy_slider3_slide3_t1white h1 {
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 50px;
     font-weight: 700;
     line-height: 36px;
@@ -1982,7 +1975,7 @@ h2.heading-2::before {
 }
 .intensy_slider3_slide3_white p {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 16px;
     font-weight: 300;
     line-height: 36px;
@@ -2125,7 +2118,7 @@ body.home-3 .readon:hover {
     background: #EB3B60;
 }
 .skill .progress:nth-child(3) .progress-bar {
-    background: #2BCDC0;
+    background: #338da8;
 }
 .home-3 .counter-area {
     background: #23C6EC;
@@ -2458,14 +2451,14 @@ body.home-3 .readon:hover {
 
 .intensy_slider4_slide1_t1white h1 {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 32px;
     font-weight: 300;
     line-height: 36px;
 }
 .intensy_slider4_slide1_t2white h1 {
     color: #fff!important;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 55px;
     font-weight: 900;
     line-height: 36px;
@@ -2473,14 +2466,14 @@ body.home-3 .readon:hover {
 }
 .intensy_slider4_slide2_t1white {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 32px;
     font-weight: 300;
     line-height: 36px;
 }
 .intensy_slider4_slide2_t2white h1 {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 55px;
     font-weight: 900;
     line-height: 36px;
@@ -2488,14 +2481,14 @@ body.home-3 .readon:hover {
 }
 .intensy_slider4_slide3_t1white {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 32px;
     font-weight: 300;
     line-height: 36px;
 }
 .intensy_slider4_slide3_t2white h1 {
     color: #fff;
-    font-family: "Roboto Slab", "serif";
+    font-family: "Roboto", "serif";
     font-size: 55px;
     font-weight: 700;
     line-height: 36px;
@@ -2569,7 +2562,7 @@ body.home-3 .readon:hover {
     overflow: hidden
 }
 .features-img span {
-    background: #2BCDC1;
+    background: #338da8;
     color: #fff;
     font-size: 12px;
     font-weight: 700;
@@ -2582,7 +2575,7 @@ body.home-3 .readon:hover {
     width: 48px;
 }
 .features-img input[type=button] {
-    background: #2BCDC1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     font-size: 12px;
@@ -2643,7 +2636,7 @@ body.home-3 .readon:hover {
     font-size: 16px;
 }
 .fea-rating {} .fea-rating a {} .fea-rating a i {
-    color: #2BCDC1
+    color: #338da8
 }
 .fea-rating span {
     color: #666;
@@ -2709,7 +2702,7 @@ body.home-3 .readon:hover {
     border-color: #ddd;
 }
 .cat-rating a i:hover {
-    color: #2BCDC1;
+    color: #338da8;
 }
 .upcoming-product-list .owl-nav .owl-prev i,
 .upcoming-product-list .owl-nav .owl-next i {
@@ -2833,7 +2826,7 @@ h2.cat-heading {
     color: #aaa;
 }
 .cat-rating a i:hover {
-    color: #2BCDC1;
+    color: #338da8;
 }
 /*-------------------------------
 16.7 video-area 
@@ -2877,7 +2870,7 @@ h2.cat-heading {
     margin-bottom: 30px;
 }
 .video-text h2 strong {
-    border-bottom: 3px solid #2bcdc1;
+    border-bottom: 3px solid #338da8;
 }
 .video-text p {
     color: #fff;
@@ -3082,11 +3075,11 @@ ul.breadcrumb li {} ul.breadcrumb li:nth-child(2)::before {
     color: #dddddd;
 }
 ul.breadcrumb li a {
-    color: #2bcdc1;
+    color: #338da8;
 }
 ul.breadcrumb li a:hover {
     text-decoration: underline;
-    color: #2bcdc1
+    color: #338da8
 }
 /*===============================
 18. About page
@@ -3127,7 +3120,7 @@ h1.about-intensy-title {
     border-bottom: 1px solid #eceaeb;
 }
 .about-intensy-text ul li::before {
-    color: #2bcdc0;
+    color: #338da8;
     content: "";
     font-family: FontAwesome;
     font-size: 13px;
@@ -3143,7 +3136,7 @@ h1.about-intensy-title {
     margin-bottom: 0
 }
 .about-intensy-text a:hover {
-    border-color: #2bcdc1;
+    border-color: #338da8;
     color: #fff;
 }
 /*------------------------------
@@ -3298,7 +3291,7 @@ h2.heading-inner:before {
     color: #666
 }
 .office-map ul li a {
-    color: #2bcdc1;
+    color: #338da8;
 }
 .office-map ul li a:hover {
     text-decoration: underline
@@ -3352,7 +3345,7 @@ h2.contact-name {
 }
 .contact-accordion h3 a::after,
 .service-accordion h3 a::after {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     border-radius: 50px;
     color: #fff;
     content: "+";
@@ -3375,7 +3368,7 @@ h2.contact-name {
     float: left;
 }
 .contact-accordion a {
-    color: #28bfb4;
+    color: #338da8;
     display: block;
     font-weight: 400;
     text-decoration: none;
@@ -3409,7 +3402,7 @@ h2.contact-name {
     margin-left: 30px;
 }
 .contact-content ul li span a {
-    color: #2bcdc1;
+    color: #338da8;
     text-transform: inherit;
 }
 .contact-content ul li span a:hover {
@@ -3447,8 +3440,8 @@ h2.contact-name {
 }
 .control-level input:focus,
 .textarea-contact textarea#message-ac:focus {
-    border-color: #2bcdc1;
-    box-shadow: 0 0 6px #2bcdc1;
+    border-color: #338da8;
+    box-shadow: 0 0 6px #338da8;
 }
 .textarea-contact {} .textarea-contact textarea#message-ac {
     border: 1px solid #ddd;
@@ -3516,7 +3509,7 @@ h2.contact-name {
     margin: 0;
 }
 .team-skill-area .single-skill-about {
-    border: 1px solid #2bcdc0;
+    border: 1px solid #338da8;
     padding: 40px 0;
 }
 .team-skill-area .about-section-heading {
@@ -3532,7 +3525,7 @@ h2.contact-name {
     border-right: 0
 }
 .team-counter-list h1 {
-    color: #2bcdc0;
+    color: #338da8;
     font-size: 70px;
     font-weight: 400;
 }
@@ -3609,10 +3602,10 @@ span.member-role {
     z-index: 9
 }
 .team-2-curosel .owl-nav .owl-next i:hover {
-    background: #2BCDC1
+    background: #338da8
 }
 .team-2-curosel .owl-nav .owl-prev i:hover {
-    background: #2BCDC1
+    background: #338da8
 }
 .team-two-bottom-area {
     padding-bottom: 40px;
@@ -3643,7 +3636,7 @@ h3.team-2-skill {
     border-bottom: 0
 }
 .our-skill-team-2 {} .our-skill-team-2 .skill .progress-bar {
-    background: #2bcdc1 none repeat scroll 0 0 !important;
+    background: #338da8 none repeat scroll 0 0 !important;
 }
 .team-two-bottom-area {
     overflow: hidden;
@@ -3717,7 +3710,7 @@ h3.team-2-skill {
     margin: 5px;
 }
 .lead-icon a i {
-    border: 1px solid #2bcdc1;
+    border: 1px solid #338da8;
     color: #444;
     font-size: 16px;
     height: 32px;
@@ -3830,7 +3823,7 @@ h3.team-3-skill {
     margin-right: 5px;
 }
 .progress-bar-bg {
-    background-color: #2bcdc1;
+    background-color: #338da8;
     color: #ffffff;
 }
 .team-3-skill-img {} .team-3-skill-img img {
@@ -3848,7 +3841,7 @@ h3.team-3-skill {
     color: #444
 }
 .dream-future .call-right {} .dream-future .call-right a {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     border-radius: 0;
 }
 .dream-future .call-right a:hover {
@@ -3976,7 +3969,7 @@ h3.team-3-skill {
 }
 .team-m-icon a i {
     border: 1px solid #ddd;
-    color: #2bcdc1;
+    color: #338da8;
     font-size: 20px;
     height: 35px;
     padding-top: 7px;
@@ -3984,7 +3977,7 @@ h3.team-3-skill {
     width: 35px;
 }
 .team-m-icon a i:hover {
-    border: 1px solid #2bcdc1;
+    border: 1px solid #338da8;
 }
 .team-m-desc p {
     margin: 40px 0 0;
@@ -4105,7 +4098,7 @@ h3.team-3-skill {
     text-decoration: none;
 }
 .sign-up.basic a {} .sign-up.professional a {
-    background: #2bcdc0
+    background: #338da8
 }
 .sign-up.premium a {
     background: #34495e
@@ -4200,7 +4193,7 @@ h3.faq-heading {
 }
 .s-p-icon i {
     border: 1px solid;
-    color: #2bcdc1;
+    color: #338da8;
     font-size: 32px;
     height: 50px;
     padding-top: 8px;
@@ -4234,7 +4227,7 @@ h3.faq-heading {
     border-color: #a5a5a5
 }
 .service-dev-text a:hover {
-    border-color: #28BFB4
+    border-color: #338da8
 }
 .service-point-area {
     background: rgba(0, 0, 0, 0) url("img/service/section.jpg") no-repeat scroll center center / cover;
@@ -4640,7 +4633,7 @@ span.expert-role {
 -----------------------*/
 
 .testimonial-top-area {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
 }
 .testimonial-area-bottom {
     margin-bottom: 70px;
@@ -4778,7 +4771,7 @@ span.expert-role {
     font-weight: bold;
 }
 .cleint-desc span.tes-title {} .cleint-desc span.tes-title a {
-    color: #2bcdc1;
+    color: #338da8;
 }
 .cleint-desc span.tes-title a:hover {
     text-decoration: underline
@@ -4811,7 +4804,7 @@ span.expert-role {
     transition: all 0.3s ease 0s;
 }
 .button-shop a i {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     border-left: 1px solid #fff;
     bottom: 0;
     color: #fff;
@@ -4920,7 +4913,7 @@ span.expert-role {
     margin: 15px 0;
 }
 .product-rating-full a {} .product-rating-full a i {
-    color: #2bcdc1;
+    color: #338da8;
 }
 .product-rating-full span {} .color-size {
     margin-top: 40px;
@@ -4949,7 +4942,7 @@ ul.color-s-menu li a {
     text-decoration: none;
 }
 ul.color-s-menu li a:hover {
-    background: #2bcdc1;
+    background: #338da8;
     color: #fff
 }
 ul.color-s-menu li ul {
@@ -5002,7 +4995,7 @@ ul.color-s-menu li ul li {} ul.color-s-menu li ul li a {
     width: 54px;
 }
 .number-select input[type="button"] {
-    background: #2bcdc1;
+    background: #338da8;
     border: medium none;
     color: #fff;
     height: 40px;
@@ -5011,7 +5004,7 @@ ul.color-s-menu li ul li {} ul.color-s-menu li ul li a {
     transition: all 0.3s ease 0s;
 }
 .number-select input[type=button]:hover {
-    background: #28bfb4
+    background: #338da8
 }
 .product-tab {
     margin-top: 30px;
@@ -5083,7 +5076,7 @@ ul.desc-tav-p li {
     border-bottom: 0
 }
 .speci-content p a {
-    color: #2bcdc1;
+    color: #338da8;
 }
 .tab-comments {
     border: 1px solid #aaa;
@@ -5110,7 +5103,7 @@ ul.desc-tav-p li {
     width: 25%;
 }
 .tab-p-rating a {} .tab-p-rating a i {
-    color: #2bcdc1;
+    color: #338da8;
 }
 .list-note {
     float: left;
@@ -5126,7 +5119,7 @@ ul.desc-tav-p li {
     width: 25%;
 }
 span.like-button {} span.like-button i {
-    color: #2bcdc1;
+    color: #338da8;
     font-size: 16px;
 }
 span.dislike-button {
@@ -5266,7 +5259,7 @@ p.cart_product_name a:hover {
     padding-bottom: 40px;
 }
 .convert-cart input[type="button"] {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     font-size: 15px;
@@ -5275,13 +5268,13 @@ p.cart_product_name a:hover {
 }
 .convert-cart input[type=button]:hover,
 .add-wishlist input[type=button]:hover {
-    background: #28BFB4
+    background: #338da8
 }
 .convert-cart p {
     margin-top: 30px;
 }
 .convert-cart p span {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     border-radius: 8px;
     color: #fff;
     padding: 1px 5px;
@@ -5306,7 +5299,7 @@ span.cart-bottom-link a:hover {
     font-weight: 700;
 }
 .add-wishlist {} .add-wishlist input[type="button"] {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     font-weight: 400;
@@ -5373,7 +5366,7 @@ span.cart-bottom-link a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px 0 0;
     bottom: 0;
-    color: #2bcdc1;
+    color: #338da8;
     padding: 15px;
     position: absolute;
     right: 0;
@@ -5409,10 +5402,10 @@ h2.blog-title {
 }
 h2.blog-title a {
     font-weight: 400;
-    color: #2bcdc1;
+    color: #338da8;
 }
 h2.blog-title a:hover {
-    color: #28bfb4;
+    color: #338da8;
 }
 .blog-toolbar {} .blog-author,
 .blog-catitemhits {
@@ -5447,13 +5440,13 @@ h2.blog-title a:hover {
 }
 .blog-description p {
     color: #666;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto", serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
 }
 .blog-read-more {} .blog-read-more a {
-    color: #28BFB4
+    color: #338da8
 }
 .panination {
     text-align: center;
@@ -5468,7 +5461,7 @@ h2.blog-title a:hover {
 .panination ul li a {
     background: rgba(0, 0, 0, 0.05) none repeat scroll 0 0;
     border-radius: 2px;
-    color: #2bcdc1;
+    color: #338da8;
     display: block;
     padding: 12px 20px;
 }
@@ -5481,7 +5474,7 @@ h2.blog-title a:hover {
     padding-top: 10px;
 }
 .blog-right-sidebar {} .blog-search {} .blog-search input {
-    border: 1px solid #2bcdc1;
+    border: 1px solid #338da8;
     box-sizing: border-box !important;
     color: #969696;
     font-size: 14px;
@@ -5491,8 +5484,8 @@ h2.blog-title a:hover {
     width: 100%;
 }
 .blog-search button {
-    background: #2bcdc1 none repeat scroll 0 0;
-    border: 1px solid #2bcdc1;
+    background: #338da8 none repeat scroll 0 0;
+    border: 1px solid #338da8;
     color: #fff;
     font-size: 17px;
     height: 100%;
@@ -5542,7 +5535,7 @@ h3.blog-sidebar-title {
     padding-left: 5px;
 }
 .blog-category ul li a:hover {
-    color: #2bcdc1
+    color: #338da8
 }
 .blog-flickr {
     margin-top: 35px;
@@ -5608,7 +5601,7 @@ h3.blog-sidebar-title {
     display: inline-block;
 }
 .blog-post-tag ul li a {
-    border-bottom: 1px solid #2bcdc1;
+    border-bottom: 1px solid #338da8;
     color: #444;
     display: block;
     font-size: 13px;
@@ -5619,7 +5612,7 @@ h3.blog-sidebar-title {
     text-transform: uppercase;
 }
 .blog-post-tag ul li a:hover {
-    color: #2bcdc1
+    color: #338da8
 }
 .blog-border {
     border-right: 1px solid #dddddd;
@@ -5802,7 +5795,7 @@ span.column-cat-b {
 }
 .blog-column-4-area .blog-column-menu ul li.active,
 .blog-column-4-area .blog-column-menu ul li:hover {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
 }
 /* -------------------------------
 33.4 blog column 5 page
@@ -5820,8 +5813,8 @@ span.column-cat-b {
 .blog-column-5-area .blog-column-menu ul li.active,
 .blog-column-5-area .blog-column-menu ul li:hover {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 1px solid #2bcdc1;
-    color: #2bcdc1;
+    border: 1px solid #338da8;
+    color: #338da8;
 }
 .blog-column-5 {
     width: 20%;
@@ -5858,7 +5851,7 @@ span.column-cat-b {
 ----------------------------------*/
 
 .blog-details-area {} h2.blog-title {
-    color: #2bcdc1;
+    color: #338da8;
 }
 .map-content {
     border: 4px double #ebebeb;
@@ -5878,7 +5871,7 @@ span.column-cat-b {
     text-transform: uppercase;
 }
 .item-author {
-    border: 4px double #2bcdc1;
+    border: 4px double #338da8;
     margin-top: 45px;
     padding: 30px;
 }
@@ -5897,7 +5890,7 @@ span.column-cat-b {
     overflow: hidden;
 }
 .item-a-info a {
-    color: #2bcdc1;
+    color: #338da8;
     display: inline-block;
     font-size: 18px;
     font-weight: 300;
@@ -6207,11 +6200,11 @@ a.blog-column-title {
     transform: translateY(-100%);
 }
 .portfolio-column-6-area .awesome-portfolio-menu ul li.active {
-    background: #2bcdc1 none repeat scroll 0 0;
+    background: #338da8 none repeat scroll 0 0;
     color: #fff;
 }
 .portfolio-column-6-area .awesome-portfolio-menu ul li:hover {
-    border: 1px solid #2bcdc1;
+    border: 1px solid #338da8;
 }
 .portfolio-column-6-area .awesome-portfolio-menu ul {
     text-align: right;
@@ -6224,7 +6217,7 @@ a.blog-column-title {
     display: none;
 }
 .mean-container .mean-nav ul li a:hover {
-    color: #2bcdc1;
+    color: #338da8;
     background: none;
 }
 .mean-container a.meanmenu-reveal span {
@@ -6232,7 +6225,7 @@ a.blog-column-title {
 }
 .mobile-menu-area {
     background: #fff none repeat scroll 0 0;
-    border-top: 3px solid #2bcdc1;
+    border-top: 3px solid #338da8;
 }
 .mean-container .mean-nav ul li a {
     background: #444;
@@ -6258,10 +6251,10 @@ a.blog-column-title {
     color: #444;
 }
 .meanmenu-reveal.meanclose:hover {
-    color: #2bcdc1 !important;
+    color: #338da8 !important;
 }
 .mean-container a.meanmenu-reveal:hover span {
-    background: #2bcdc1;
+    background: #338da8;
 }
 .home-2 .mobile-menu-area {
     border-top: 3px solid #EB3B60;
