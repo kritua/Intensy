@@ -638,7 +638,7 @@ span.search-button i {
 .awesome-portfolio-area {
     background: #f7f5f6 none repeat scroll 0 0;
     overflow: hidden;
-    padding-top: 160px;
+    padding: 100px 0 40px;
 }
 .section-heading {
     text-align: center
@@ -819,7 +819,7 @@ span.search-button i {
 --------------------------------*/
 
 .our-skill-area {
-    background: rgba(0, 0, 0, 0) url("img/skill/bg-skill.jpg") no-repeat fixed center center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), rgba(0, 0, 0, 0) url("img/skill/bg-skill.jpg") no-repeat fixed center center / cover;
     padding: 151px 0 160px;
 }
 .our-skill-area .section-heading {
