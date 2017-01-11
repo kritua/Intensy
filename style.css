@@ -544,7 +544,7 @@ span.search-button i {
 --------------------------------*/
 
 .features-area-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/features/bg-1.jpg") no-repeat fixed center center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("img/features/bg-1.jpg") no-repeat fixed center center / cover;
     padding: 160px 0 162px;
 }
 .single-features-1 {
@@ -637,7 +637,7 @@ span.search-button i {
 .awesome-portfolio-area {
     background: #f7f5f6 none repeat scroll 0 0;
     overflow: hidden;
-    padding: 100px 0 40px;
+    padding: 100px 0 0;
 }
 .section-heading {
     text-align: center
