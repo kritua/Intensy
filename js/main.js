@@ -330,7 +330,7 @@
 
       $this.knob({
         'draw': function () {
-          $(this.i).val(this.cv + '%')
+          $(this.i).val(this.cv);
         }
       });
 
