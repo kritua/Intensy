@@ -1,6 +1,9 @@
 /* Large desktop :1200px. */
 @media (min-width: 1200px) {
- 
+  .creative-heading h2 {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
 }
  
 /* Normal desktop :992px. */
@@ -31,7 +34,12 @@
 }
 .mainmenu ul#nav li .mega-menu {
   right: -113px;
-} 
+}
+
+.creative-heading h2 {
+  font-size: 2.5rem;
+  line-height: 1;
+}
     
     
     

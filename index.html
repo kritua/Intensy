@@ -62,7 +62,7 @@
 
   <!-- style CSS
   ============================================ -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- responsive CSS
   ============================================ -->
@@ -100,7 +100,15 @@
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="#">О компании</a></li>
                 <li><a href="#">Преимущества</a></li>
-                <li><a href="#">Направления</a></li>
+                <li><a href="#">Направления</a>
+                  <ul class="sub-menu">
+                    <li><a href="#">Москва - Санкт-Петербург</a></li>
+                    <li><a href="#">Москва - Нижний Новгород</a></li>
+                    <li><a href="#">Москва - Уфа</a></li>
+                    <li><a href="#">Москва - Ростов-на-Дону</a></li>
+                    <li><a href="#">Москва - Челябинск</a></li>
+                  </ul>
+                </li>
                 <li><a href="#">Автопарк</a></li>
                 <li><a href="#">Контакты</a></li>
               </ul>
@@ -126,7 +134,15 @@
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="#">О компании</a></li>
                 <li><a href="#">Преимущества</a></li>
-                <li><a href="#">Направления</a></li>
+                <li><a href="#">Направления</a>
+                  <ul class="sub-menu">
+                    <li><a href="#">Москва - Санкт-Петербург</a></li>
+                    <li><a href="#">Москва - Нижний Новгород</a></li>
+                    <li><a href="#">Москва - Уфа</a></li>
+                    <li><a href="#">Москва - Ростов-на-Дону</a></li>
+                    <li><a href="#">Москва - Челябинск</a></li>
+                  </ul>
+                </li>
                 <li><a href="#">Автопарк</a></li>
                 <li><a href="#">Контакты</a></li>
               </ul>
@@ -417,7 +433,7 @@
 </div>
 <!-- END HOME SLIDER -->
 <!-- welcome-area start -->
-<div class="welcome-area fix">
+<div class="welcome-area fix" id="about">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -441,7 +457,7 @@
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <div class="single-features-1">
           <div class="features-icon">
-            <img src="/img/features/css.svg" width="150">
+            <img src="img/icons/truck.png" width="150">
           </div>
           <div class="features-info-text">
             <h3>Собственный автопарк</h3>
@@ -455,7 +471,7 @@
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <div class="single-features-1">
           <div class="features-icon">
-            <img src="/img/features/html.svg" width="150">
+            <img src="img/icons/clock.png" width="150">
           </div>
           <div class="features-info-text">
             <h3>Соблюдение сроков</h3>
@@ -469,7 +485,7 @@
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <div class="single-features-1">
           <div class="features-icon">
-            <img src="/img/features/js.svg" width="150">
+            <img src="img/icons/shield.png" width="150">
           </div>
           <div class="features-info-text">
             <h3>Гарантия сохранности</h3>
@@ -603,7 +619,7 @@
       </div>
       <!-- single-awesome-portfolio end -->
       <!-- single-awesome-portfolio start -->
-      <div class="single-awesome-portfolio mix all moto light">
+      <div class="single-awesome-portfolio mix all moto">
         <a class="fancybox" href="img/portfolio/bike.jpg" data-fancybox-group="group">
           <div class="awesome-img"><img src="img/portfolio/bike.jpg" alt=""/></div>
           <div class="awesome-info">
@@ -755,7 +771,7 @@
   <!-- top blog start -->
   <div class="latest-blog-desc">
     <a class="blog-more" href="#"><i class="fa fa-plus"></i></a>
-    <a class="latest-blog-img" href="#" style="background-image: url(img/blog/latest-blog/2.jpg);">
+    <a class="latest-blog-img" href="#" style="background-image: url(img/blog/car.jpg);">
       <span class="image-over-style"></span>
     </a>
     <div class="latest-blog-info">
@@ -768,7 +784,7 @@
   </div>
   <div class="latest-blog-desc">
     <a class="blog-more" href="#"><i class="fa fa-plus"></i></a>
-    <a class="latest-blog-img" href="#" style="background-image: url(img/blog/latest-blog/3.jpg);">
+    <a class="latest-blog-img" href="#" style="background-image: url(img/blog/boat.jpg);">
       <span class="image-over-style"></span>
     </a>
     <div class="latest-blog-info">
@@ -783,7 +799,7 @@
   <!-- bottom blog start -->
   <div class="latest-blog-desc">
     <a class="blog-more" href="#"><i class="fa fa-plus"></i></a>
-    <a class="latest-blog-img" href="#" style="background-image: url(img/blog/latest-blog/3.jpg);">
+    <a class="latest-blog-img" href="#" style="background-image: url(img/blog/gps.jpg);">
       <span class="image-over-style"></span>
     </a>
     <div class="latest-blog-info">
@@ -796,7 +812,7 @@
   </div>
   <div class="latest-blog-desc">
     <a class="blog-more" href="#"><i class="fa fa-plus"></i></a>
-    <a class="latest-blog-img" href="#" style="background-image: url(img/blog/latest-blog/3.jpg);">
+    <a class="latest-blog-img" href="#" style="background-image: url(img/blog/ins.jpg);">
       <span class="image-over-style"></span>
     </a>
     <div class="latest-blog-info">
@@ -816,22 +832,22 @@
     <div class="row">
       <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="single-brand">
-          <a href="#"><img src="img/brand/k2-logo.svg" alt=""/></a>
+          <a href="#"><img src="img/brand/aeroflot_1.png" alt=""/></a>
         </div>
       </div>
       <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="single-brand">
-          <a href="#"><img src="img/brand/hikashop-logo.svg" alt=""/></a>
+          <a href="#"><img src="img/brand/casting-1.png" alt=""/></a>
         </div>
       </div>
       <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="single-brand">
-          <a href="#"><img src="img/brand/roksprocket-logo.svg" alt=""/></a>
+          <a href="#"><img src="img/brand/rzd_1.png" alt=""/></a>
         </div>
       </div>
       <div class="col-sm-3 col-md-3 col-lg-3">
         <div class="single-brand">
-          <a href="#"><img src="img/brand/shortcode-ultimate-logo.svg" alt=""/></a>
+          <a href="#"><img src="img/brand/gazpromneft_1.png" alt=""/></a>
         </div>
       </div>
     </div>
@@ -861,7 +877,7 @@
               <li>
                 <span>Телефоны:</span>
                                 <span>
-										+7 (964) 761-79-17 - Дмитрий<br>
+										+7 (999) 999-99-99 - Менеджер по безысходности<br>
 									</span>
               </li>
             </ul>

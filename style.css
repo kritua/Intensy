@@ -544,13 +544,16 @@ span.search-button i {
 --------------------------------*/
 
 .features-area-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("img/features/bg-1.jpg") no-repeat fixed center center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/features/bg-1.jpg") no-repeat fixed center center / cover;
     padding: 160px 0 162px;
 }
 .single-features-1 {
     text-align: center;
 }
-.features-icon {} .features-icon i {
+.features-icon {
+    margin-bottom: 20px;
+}
+.features-icon i {
     font-size: 100px;
     margin-bottom: 40px;
 }
@@ -595,8 +598,8 @@ span.search-button i {
 }
 .creative-heading h2 {
     color: #fff;
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 1.5rem;
+    line-height: 1;
 }
 .creative-heading p {
     color: #ededed;
@@ -640,11 +643,11 @@ span.search-button i {
     padding: 100px 0 0;
 }
 .section-heading {
-    text-align: center
+    text-align: center;
 }
 .section-heading h2 {
     color: #666;
-    font-size: 45px;
+    font-size: 1.5rem;
     line-height: 45px;
     margin-bottom: 20px;
 }
@@ -844,7 +847,7 @@ span.search-button i {
 --------------------------------*/
 
 .testimonial-area {
-    background: rgba(0, 0, 0, 0) url("img/testimonial/testimonbg.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/testimonial/testimonbg.jpg") no-repeat scroll center center / cover;
     padding: 120px 0 111px;
 }
 .testimonial-curosel {} .single-testimonial {
