@@ -4,6 +4,9 @@
     font-size: 3.5rem;
     line-height: 1;
   }
+  .latest-blog-area > div:hover .latest-blog-info p {
+    font-size: 1rem;
+  }
 }
  
 /* Normal desktop :992px. */
