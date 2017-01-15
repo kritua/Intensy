@@ -48,10 +48,10 @@
       var logoImage = $('.logo-img');
       if (windowpos > pos.top) {
         sticky_menu.addClass("stick");
-        logoImage.attr('src', 'img/logo/logo-simple-black.svg').attr('width', '100');
+        logoImage.attr('src', '/img/logo/logo-simple-black.svg').attr('width', '100');
       } else {
         sticky_menu.removeClass("stick");
-        logoImage.attr('src', 'img/logo/logo-simple.svg').attr('width', '150');
+        logoImage.attr('src', '/img/logo/logo-simple.svg').attr('width', '150');
       }
     });
   }
