@@ -52,7 +52,7 @@ gulp.task('serve', ['style'], function() {
 
 gulp.task('scripts', function () {
   gulp.src([
-    'js/*.js'
+    'js/**/*.js'
   ])
     .pipe(concat('script.js'))
     .pipe(gulp.dest('build/js'))
