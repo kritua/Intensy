@@ -181,7 +181,7 @@
     margin: 10,
     nav: true,
     animateIn: 'fadeIn',
-    autoplay: false,
+    autoplay: true,
     smartSpeed: 3000,
     navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
     responsive: {

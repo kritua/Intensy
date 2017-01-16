@@ -579,6 +579,7 @@ span.search-button i {
     color: #ddd;
     margin: 0;
 }
+
 /*------------------------------
 6. Creative-intensy-area
 --------------------------------*/
@@ -590,6 +591,7 @@ span.search-button i {
 }
 .creative-img {
     overflow: hidden;
+  align-self: center;
 }
 .creative-img img {
     margin-bottom: -2px;
@@ -637,6 +639,16 @@ span.search-button i {
 .creative-desc p {
     color: #ededed;
 }
+
+.creative-intensy-area .row:first-child {
+  display: flex;
+}
+
+.creative-intensy-area__flex-item {
+  align-items: stretch;
+  display: flex;
+}
+
 /*------------------------------
 7. Awesome-portfolio-area
 --------------------------------*/
@@ -669,10 +681,12 @@ span.search-button i {
     position: relative;
     transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0s;
     z-index: 2;
-    display: block
+    display: block;
 }
-.awesome-img img {} .awesome-info {
-    background-color: #282727;
+
+
+.awesome-info {
+    background-color: #338da8;
     height: 100%;
     padding: 20px 30px 12px;
     position: absolute;
@@ -687,12 +701,40 @@ span.search-button i {
     margin-bottom: 3px;
 }
 .awesome-info p {
-    color: #aaa;
+    color: #eee;
     font-size: 12px;
 }
 .single-awesome-portfolio a:hover .awesome-img {
     transform: translateY(100%);
 }
+
+.portfolio-column-5-area .awesome-img {
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.portfolio-column-5-area .awesome-info {
+  z-index: 2;
+  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  text-align: center;
+}
+
+.portfolio-column-5-area .awesome-info img,
+.portfolio-column-5-area .awesome-img img{
+  margin: 10px 0;
+}
+
+.portfolio-column-5-area .single-awesome-portfolio a:hover .awesome-info {
+  transform: translateY(100%);
+}
+
+.portfolio-column-5-area .single-awesome-portfolio a:hover .awesome-img {
+  transform: translateY(0%);
+}
+
 .awesome-portfolio-menu {
     margin-bottom: 40px;
     margin-top: 20px;
@@ -707,7 +749,7 @@ span.search-button i {
     display: inline-block;
     font-size: 12px;
     font-weight: 300;
-    margin: 0 4px;
+    margin: 10px 4px;
     padding: 8px 17px;
     transition: all 0.3s ease 0s;
     background: #fff;
@@ -1742,7 +1784,7 @@ h2.heading-2::before {
 }
 .view-post,
 .awesome-info {
-    background-color: #282727;
+    background-color: #338da8;
     display: block;
     height: 100%;
     position: absolute;
@@ -3232,6 +3274,10 @@ h1.about-intensy-title {
 }
 .pages-area .breadcrumb-title h1 {
     font-weight: 300;
+}
+
+.pages-area .breadcrumb-title h2 {
+  color: #fff;
 }
 .breadcrumb-title > p {
     color: #ddd;
