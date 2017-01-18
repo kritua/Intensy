@@ -1363,6 +1363,7 @@ h4.latest-blog-title {
 
 .single-brand {
   border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 .single-brand a {
@@ -3247,7 +3248,7 @@ body.home-3 .readon:hover {
 --------------------------------*/
 
 .features-area {
-  background: #FCFCFC;
+  background: #eee;
   padding: 116px 0 120px;
 }
 
@@ -5383,6 +5384,7 @@ h3.faq-heading {
 }
 
 .service-dev-area {
+  background: #eee;
   padding: 81px 0 93px;
 }
 
