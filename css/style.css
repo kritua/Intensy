@@ -3596,8 +3596,9 @@ h2.cat-heading {
   position: relative;
 }
 
+
 .video-area-4:before {
-  background-image: url("img/video-ovarlay.png");
+  background-image: url("../img/video-overlay.png");
   content: "";
   height: 100%;
   left: 0;
@@ -3605,7 +3606,7 @@ h2.cat-heading {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
 }
 
 #bg-container {
@@ -3617,7 +3618,6 @@ h2.cat-heading {
 #bg {
   width: 100%;
   position: absolute;
-  bottom: -250px;
 }
 
 .video-text {
@@ -3627,7 +3627,7 @@ h2.cat-heading {
   text-align: center;
   top: 50%;
   width: 100%;
-  z-index: 9;
+  z-index: 900;
 }
 
 .video-text h2 {
