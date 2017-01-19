@@ -729,6 +729,10 @@ span.search-button i {
   overflow: hidden;
 }
 
+.about-page .creative-intensy-area {
+  background: #eee;
+}
+
 .creative-img {
   overflow: hidden;
   align-self: center;
@@ -849,7 +853,7 @@ span.search-button i {
 .awesome-info {
   background-color: #338da8;
   height: 100%;
-  padding: 20px 30px 12px;
+  padding: 60px;
   position: absolute;
   top: 0;
   width: 100%;
@@ -884,6 +888,7 @@ span.search-button i {
   z-index: 2;
   transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   text-align: center;
+  padding: 30px;
 }
 
 .portfolio-column-5-area .awesome-info img,
@@ -1193,6 +1198,7 @@ a.latest-blog-img {
   height: 340px;
   position: relative;
   width: 100%;
+  background-position: 8% 100%;
 }
 
 a.blog-more {
@@ -1266,11 +1272,16 @@ a.blog-more {
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.5s cubic-bezier(0.47, 0.68, 0.21, 0.87) 0s;
+  font-size: 0.7rem;
 }
 
 .latest-blog-area > div:hover a.blog-more {
   opacity: 1;
   right: 50px;
+}
+
+.hidden-text {
+  display: none;
 }
 
 .latest-blog-area > div:hover .latest-blog-info h3:before {
@@ -2227,9 +2238,6 @@ a.cbp-caption:hover .blog-post-photo {
   width: 100%;
   color: #fff;
   font-size: 15px;
-}
-
-.blog-post-desc {
 }
 
 .blog-post-desc h3 {
@@ -4011,7 +4019,7 @@ h1.about-intensy-title {
 }
 
 .newsletter-area {
-  background: rgba(0, 0, 0, 0) url("../img/about/about_us_h1.jpg") no-repeat scroll center center / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), rgba(0, 0, 0, 0) url("../img/about/about_us_h1.jpg") no-repeat scroll center center / cover;
   overflow: hidden;
   padding: 150px 0 133px;
   text-align: center;
@@ -4182,8 +4190,7 @@ h2.heading-inner:before {
 -------------------------------*/
 
 .contact-pages-area {
-  background: rgba(0, 0, 0, 0) url("img/about/05.jpg") no-repeat scroll center center / cover;
-}
+  background: rgba(0, 0, 0, 0) url(../img/about/03.jpg) no-repeat scroll center center / cover;}
 
 .contact-pages-area .breadcrumb-title h1 {
   font-weight: 300;
@@ -4203,9 +4210,6 @@ h2.heading-inner:before {
 
 h2.contact-name {
   font-size: 24px;
-}
-
-.contact-accordion {
 }
 
 .contact-accordion h3.open {
@@ -4267,16 +4271,12 @@ h2.contact-name {
   margin-bottom: 2px;
   overflow: hidden;
   border: 1px solid #ddd;
-  border-top: 0;
 }
 
 .contact-content p {
   font-size: 16px;
   font-weight: bold;
   padding-top: 20px;
-}
-
-.contact-content ul {
 }
 
 .contact-content ul li {
@@ -4327,7 +4327,13 @@ h2.contact-name {
   padding-bottom: 10px;
 }
 
-.control-level {
+
+.contact-form-ac > .small-text {
+  font-size: 0.7rem;
+  color: #bb939c;
+  border: none !important;
+  margin: 0;
+  padding: 0;
 }
 
 .control-level p {
@@ -4350,15 +4356,17 @@ h2.contact-name {
 }
 
 .control-level input:focus,
-.textarea-contact textarea#message-ac:focus {
+.textarea-contact .textfield:focus {
   border-color: #338da8;
   box-shadow: 0 0 6px #338da8;
 }
 
-.textarea-contact {
+.form-label {
+  font-weight: 400;
+  margin-top: 20px;
 }
 
-.textarea-contact textarea#message-ac {
+.textarea-contact .textfield {
   border: 1px solid #ddd;
   width: 100%;
   padding-left: 10px;
@@ -4411,6 +4419,7 @@ h2.contact-name {
 }
 
 .contact-map {
+  margin-top: 6px;
 }
 
 .contact-map > h3 {
