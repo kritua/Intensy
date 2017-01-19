@@ -213,10 +213,10 @@
         items: 1
       },
       770: {
-        items: 3
+        items: 1
       },
       1000: {
-        items: 5
+        items: 1
       }
     }
   })
