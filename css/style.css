@@ -5343,7 +5343,7 @@ h3.faq-heading {
 }
 
 .service-breadcrumb {
-  background: rgba(0, 0, 0, 0) url("img/about/bg.jpg") no-repeat scroll center center / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), rgba(0, 0, 0, 0) url("../img/about/about_us_h1.jpg") no-repeat scroll center center / cover;
 }
 
 /* ==========================
@@ -5420,7 +5420,7 @@ h3.faq-heading {
 }
 
 .service-point-area {
-  background: rgba(0, 0, 0, 0) url("img/service/section.jpg") no-repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) url("../img/features/bg-1.jpg") no-repeat scroll center center / cover;
   padding: 144px 0 150px;
 }
 
