@@ -64,8 +64,8 @@ gulp.task('scripts', function () {
 
 gulp.task('raster', function () {
   gulp.src([
-    'img/*/*.{png,jpg,gif}',
-    'img/*.{png,jpg,gif}'
+    'img/**/*.{png,jpg,gif,ico}',
+    'img/*.{png,jpg,gif,ico}'
   ])
     .pipe(imagemin([
       imagemin.optipng({
