@@ -204,7 +204,7 @@
     loop: true,
     margin: 10,
     nav: true,
-    autoplay: false,
+    autoplay: true,
     stagePadding: 50,
     smartSpeed: 1000,
     navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
@@ -213,10 +213,10 @@
         items: 1
       },
       770: {
-        items: 1
+        items: 3
       },
       1000: {
-        items: 1
+        items: 5
       }
     }
   })
