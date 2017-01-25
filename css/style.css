@@ -36,7 +36,8 @@
 	32. Checkout & cart page
 	33. Blog page
 	34. Portfolio
-	35. Mobile menu	
+	35. Mobile menu
+	36. Modal Window
 -----------------------------------------------------------------------------------*/
 
 /*----------------------------------------*/
@@ -176,12 +177,13 @@ body .readon.white {
 body .readon {
   background: transparent none repeat scroll 0 0;
   border: 2px solid #338da8;
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
   position: relative;
   text-align: center;
   text-decoration: none !important;
   transition: all 0.3s ease-in-out 0s;
+  margin: 0 auto 20px;
 }
 
 body .readon.white:hover {
@@ -8200,8 +8202,84 @@ a.blog-column-title {
   margin-bottom: 0px;
 }
 
+/* -------------------------------
+35. Mobile menu
+----------------------------------*/
+
+.modal-window {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 150;
+  position: fixed;
+}
+
+.modal-window__wrapper {
+  display: none;
+}
+
+.modal-window__form {
+  position: fixed;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  z-index: 200;
+}
+
+.modal-window__header {
+@include font-thin();
+  line-height: 2.5vh;
+  font-size: 2vh;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.modal-window__form label {
+@include font-thin();
+  color: #fff;
+  font-size: 1.8vh;
+}
+
+.modal-window__close-form {
+  position: absolute;
+  color: #fff;
+  right: 25%;
+  font-size: 80px;
+}
 
 
+.modal-window__close-form:hover {
+  cursor: pointer;
+  color: #D22856;
+}
 
+.alert {
+  text-align: center;
+  color: #fff;
+  padding: 20px 100px;
+  display: inline-block;
+}
 
+.alert-danger {
+  background: #D22856;
+}
+
+.alert-success {
+  background: #58D298;
+}
+
+.alert-info {
+  background: #63B2D2;
+}
+
+.message {
+  margin: 0 auto;
+  text-align: center;
+}
 

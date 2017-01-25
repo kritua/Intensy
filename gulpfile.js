@@ -10,6 +10,7 @@ var del = require('del');
 var run = require('run-sequence');
 var rename = require('gulp-rename');
 var minify = require('gulp-csso');
+var ext = require('gulp-ext-replace');
 var imagemin = require('gulp-imagemin');
 var svgo = require('gulp-svgmin');
 var concat = require('gulp-concat');
@@ -81,21 +82,32 @@ gulp.task('raster', function () {
 gulp.task('vector', function () {
   gulp.src([
     'img/*.svg',
-    'img/*/*.svg'
+    'img/**/*.svg'
   ])
     .pipe(svgo())
     .pipe(gulp.dest('build/img'));
 });
 
 gulp.task('copy', function() {
-  gulp.src([
+  return gulp.src([
     'fonts/*.*',
-    '*.html'
+    'lib/**/*',
+    'video/**/*',
+    'images/**/*',
+    'css/**/*',
+    'js/**/*',
+    '*.php'
   ], {
     base: '.'
   })
     .pipe(gulp.dest('build'))
     .pipe(server.stream());
+});
+
+gulp.task('html-php', function() {
+  gulp.src('*.html')
+    .pipe(ext('.php'))
+    .pipe(gulp.dest('build'))
 });
 
 gulp.task('clean', function() {
@@ -105,7 +117,7 @@ gulp.task('clean', function() {
 gulp.task('build', function(done) {
   run(
     'clean',
-    ['copy', 'style', 'scripts', 'raster', 'vector'],
+    ['html-php', 'copy', 'style', 'scripts', 'raster', 'vector'],
     done
   );
 });
