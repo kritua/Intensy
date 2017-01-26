@@ -177,13 +177,17 @@ body .readon.white {
 body .readon {
   background: transparent none repeat scroll 0 0;
   border: 2px solid #338da8;
-  display: block;
+  display: inline-block;
   padding: 10px 20px;
   position: relative;
   text-align: center;
   text-decoration: none !important;
   transition: all 0.3s ease-in-out 0s;
   margin: 0 auto 20px;
+}
+
+button.readon {
+  display: block;
 }
 
 body .readon.white:hover {
@@ -3312,9 +3316,6 @@ body.home-3 .readon:hover {
   z-index: 9
 }
 
-.features-img a i {
-}
-
 .features-info {
   padding: 15px;
   text-align: center;
@@ -3359,12 +3360,6 @@ body.home-3 .readon:hover {
 
 .features-info h3 span {
   font-size: 16px;
-}
-
-.fea-rating {
-}
-
-.fea-rating a {
 }
 
 .fea-rating a i {
@@ -3551,9 +3546,6 @@ h2.cat-heading {
 .cat-img {
   float: left;
   margin-right: 20px;
-}
-
-.cat-img img {
 }
 
 .category-info {
@@ -3793,65 +3785,11 @@ a.read-more:hover {
   margin: 40px
 }
 
-.home-4 .footer-top-area {
-  background: #FCFCFC;
-}
-
-.home-4 .newsletter h2 {
-  color: #444444;
-  font-weight: 400;
-}
-
 .home-4 .newsletter form input {
   background: #fff none repeat scroll 0 0;
   color: #000;
 }
 
-.home-4 .newsletter form button {
-  color: #aaaaaa;
-}
-
-.home-4 .newsletter form a {
-  color: #555555;
-}
-
-.home-4 .footer-contact {
-  color: #444;
-}
-
-.home-4 .footer-contact ul li span a i {
-  border: 2px solid #535353;
-  color: #535353;
-}
-
-.home-4 .footer-contact ul li span a i:hover {
-  border-color: #aaa;
-  color: #aaa;
-}
-
-.home-4 .footer-bottom-area {
-  background: #fff;
-}
-
-.home-4 .copyright p {
-  color: #444444;
-}
-
-.home-4 .footer-menu ul li a {
-  color: #444;
-}
-
-.home-4 .footer-menu ul li a:hover {
-  color: #aaa;
-}
-
-.home-4 .footer-contact ul li:nth-child(n+2) {
-  border-top: 1px solid rgba(68, 68, 68, 0.15);
-}
-
-.home-4 .blog-text {
-  padding: 58px 70px 70px;
-}
 
 /*------------------------------
 17. Breadcrumb-area
@@ -4211,6 +4149,15 @@ h2.heading-inner:before {
 .contact-page-area {
   padding-bottom: 55px;
   padding-top: 55px;
+}
+
+.landing__form {
+  margin: 30px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.8)), url('../img/features/bg-2.jpg') no-repeat center;
+}
+
+.landing__form .contact-name {
+  text-align: center;
 }
 
 h2.contact-name {
