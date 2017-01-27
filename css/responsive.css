@@ -61,9 +61,7 @@
 .header-area {
   display: none;
 }
-.logo a {
-  margin-top: 3px;
-}
+
 .logo {
   height: inherit;
   padding: 0;
