@@ -183,7 +183,7 @@ body .readon {
   text-align: center;
   text-decoration: none !important;
   transition: all 0.3s ease-in-out 0s;
-  margin: 0 auto 20px;
+  margin: 20px auto;
 }
 
 button.readon {
