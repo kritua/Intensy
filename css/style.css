@@ -4332,8 +4332,7 @@ h2.contact-name {
   margin-bottom: 5px;
 }
 
-.control-level p span {
-}
+
 
 .control-level input {
   height: 38px;
@@ -5545,9 +5544,6 @@ h3.faq-heading {
 
 .qa-accordion h2.open a:before {
   content: "\f146"
-}
-
-.qa-content {
 }
 
 .qa-content p {
